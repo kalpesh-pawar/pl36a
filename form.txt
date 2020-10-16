@@ -1,0 +1,30 @@
+
+<!doctyp HTML>
+<html>
+<head><title>Feedback form</title></head>
+<body>
+	<form id="f1" action="">
+		<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname"><br>
+		<label for="email">Email-id</label><br>
+<input type="text" id="email" name="email" placeholder="xyz@gmail.com"><br>
+		<p>How much are you satisfied:</p>
+		<input type="radio" id="high" name="satisfy" value="high">
+		<label for="high">high</label><br>
+		<input type="radio" id="ok" name="satisfy" value="ok">
+		<label for="ok">OK</label><br>
+		<input type="radio" id="low" name="satisfy" value="low">
+		<label for="high">low</label><br>
+		<label for="file">Input your ss of problem:</label>
+		<input type="file" id="file" name="file" accept="image/*"><br>
+		<label for="Feedback">Enter your Feedback:</label><br>
+		<textarea id="Feedback" rows="5" cols="50" name="feedback" required>
+			Enter your Feedback</textarea><br>
+		<input type="submit" id="submit" name="submit" onclick=alert("THANKYOU")>
+		<input type="reset" id="reset" name="reset"><br><br>
+		<input type="image" id="image" alt="y" src="AnimeX_599379.jpeg" height="30" width="50" >
+	</form>
+</body>
+</html>
